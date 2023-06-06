@@ -1,0 +1,49 @@
+{
+  "myData": [
+    {
+      "image": "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/8299/1328299-v-41830f478c3f",
+      "title": "THOR",
+      "rating": "4"
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Spider-Man_PS4_cover.jpg",
+      "title": "SPIDER-MAN",
+      "rating": "4.5"
+    },
+    {
+      "id": 1685613055563,
+      "email": "pradhansurendra39@gmail.com",
+      "password": "saa"
+    },
+    {
+      "id": 1685613190842,
+      "email": "cse.21bcsl08@silicon.ac.in",
+      "password": "4ewrf"
+    },
+    {
+      "id": 1685613211704,
+      "email": "pradhansurendra39@gmail.com",
+      "password": "cxfx"
+    },
+    {
+      "id": 1685622018292,
+      "email": "pradhansurendra39@gmail.com",
+      "password": "tg"
+    },
+    {
+      "id": 1685622123582,
+      "email": "pradhansurendra39@gmail.com",
+      "password": "jhgyug"
+    },
+    {
+      "id": 1685622531961,
+      "email": "soumu2002@gmail.com",
+      "password": "soumu@2002"
+    },
+    {
+      "id": 1685623723195,
+      "email": "pradhansurendra39@gmail.com",
+      "password": "tf4r"
+    }
+  ]
+}

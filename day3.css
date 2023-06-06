@@ -1,0 +1,62 @@
+#show_movies{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px
+}
+#show_movies img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1rem;
+
+}
+div{
+    border: 1px solid;
+    text-align: center;
+    margin: 5px;
+    box-shadow: 3px 3px 8px;
+}
+body{    
+    background-color: rgb(13, 13, 12);
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1c1b1b;
+    }
+
+    li {
+    float: left;
+    }
+
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+    li a:hover {
+    background-color: #afa8a8;
+    }   
+    #NavBar{
+        position: sticky;
+        top: 0;
+    }
+    .active {
+    background-color: #505757;
+    }
+    #primeVideo{
+        width: 90px;
+        height: 47px;
+        margin-right: 5px;
+    }
+    .right{
+        float: right;
+    }
+

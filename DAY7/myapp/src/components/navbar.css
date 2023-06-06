@@ -1,0 +1,6 @@
+.navbar{
+    display: flex;
+    color: rgb(170, 176, 176);
+    background-color: aquamarine;
+    justify-content: space-around;
+}

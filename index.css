@@ -1,0 +1,24 @@
+#firstbox{
+    height: 500px;
+    width: 80%;
+    color: blue;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    grid-template-columns:  repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+
+#name{
+    display: flex;
+}
+
+ul{
+    display: flex;
+}
+
+ol{
+    display: flex;
+}

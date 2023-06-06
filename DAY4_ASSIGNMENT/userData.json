@@ -1,0 +1,37 @@
+{
+  "userDetails": [
+    {
+      "id": 1685694454878,
+      "name": "Ek villan",
+      "mobile": "8917249965",
+      "email": "cse.21bcsl08@silicon.ac.in",
+      "password": "1111"
+    }
+  ],
+  "rec": [
+    {
+      "image": "https://media.istockphoto.com/id/1254720533/photo/chicken-biryani-with-yogurt-dip-popular-indian-pakistani-non-vegetarian-food.jpg?s=612x612&w=0&k=20&c=mnyhCsS3ysk3W37mpYfOsF2hSHA4a2CV3PDjr8aLdCU=",
+      "foodName": "CHICKEN BIRIYANI",
+      "recipe": "Chicken biryani is made with chicken, basmati rice, spices like cumin, coriander, turmeric, cardamom, cloves, cinnamon, bay leaves, and star anise. Onions, yogurt, ginger, garlic, and tomatoes add flavor. Ghee or oil is used for cooking. Garnishes include mint and cilantro. Optional ingredients are saffron, fried onions, nuts, and raisins.",
+      "id": 6
+    },
+    {
+      "image": "https://www.simplyrecipes.com/thmb/kXlwoFywQnKslGFWSKREkOddZrY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__01__Butter-Chicken-LEAD-5-de97119a16124a31a3b99ee16a398612.jpg",
+      "foodName": "KADAI CHICKEN",
+      "recipe": "Kadai chicken is a flavorful Indian dish with a spicy kick. The main ingredients are chicken, tomatoes, onions, capsicum, ginger, garlic, a blend of spices including red chili powder, turmeric, coriander powder, cumin seeds, garam masala, and kadai masala. Oil, salt, water, and fresh coriander are also used.",
+      "id": 7
+    },
+    {
+      "image": "https://www.spiceupthecurry.com/wp-content/uploads/2021/02/kadai-paneer-2-500x500.jpg",
+      "foodName": "SAHI PANEER",
+      "recipe": "Sahi paneer is a creamy and flavorful Indian dish made with paneer (cottage cheese) in a rich tomato-based gravy. The key ingredients include paneer, tomatoes, onions, cashews, ginger, garlic, a blend of spices such as turmeric, red chili powder, cumin, coriander, garam masala, cream, ghee or oil, fresh coriander, salt, and water.",
+      "id": 8
+    },
+    {
+      "image": "https://www.cookingwithsiddhi.com/wp-content/uploads/2020/11/veg-manchurian-dry-500x500.jpeg",
+      "foodName": "VEG MANCHURIAN",
+      "recipe": "Veg Manchurian is a popular Indo-Chinese dish made with mixed vegetables. The key ingredients include chopped vegetables, all-purpose flour, cornflour, ginger, garlic, soy sauce, green chilies, onions, garlic, tomato ketchup, vinegar, oil, salt, pepper, and spring onions for garnish.",
+      "id": 9
+    }
+  ]
+}

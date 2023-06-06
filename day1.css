@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(0, 255, 166);
+
+}
+span{color: brown;}
+ul{margin: 10px;}
+/* #grid-container{background-color: bisque;} */
+
+/* -----------grid--------- */
+#grid-container{
+    border: 2px solid rgb(0, 204, 255);
+    background-color: rgb(61, 224, 66);
+    color: black;
+    padding:1rem;
+    border-radius:1rem;
+    max-width: 60%;
+    margin: auto;
+}
+#grid-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* ---------flex--------- */
+
+#flex-container{
+    max-width: 90%;
+    border: 2px dashed rgb(43, 186, 226);
+    padding: 2em;
+    background-color: bisque;
+    margin: auto;
+}
+
+#flex-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:6em;
+
+}
+
+#flex{
+    background-color: aqua;
+    font-size: large;
+    font-style: oblique;
+}

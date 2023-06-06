@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-2</title>
+</head>
+<body>
+
+    <nav class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <ul id="right">
+            <li>Login</li>
+            <li>Logout</li>
+            
+        </ul>
+    </nav>
+    <br>
+    <button id="view_pic">View Image</button>
+    <button id="remove_pic">Remove Image</button>
+    <div id="show_pic">
+        <img src="">
+    </div>
+    <div id="showable">
+       <textarea  id="content" rows="5" cols="152" ></textarea><br>
+       <button id="clickable1">click me to show</button>
+       <button id="clickable2">click me to not show</button>
+       </div>
+        <table>
+            <tr>
+                <th>
+                    S.No
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Gender
+                </th>
+            </tr>
+            <tbody>
+
+            </tbody>
+        </table>
+</body>
+<script src="day2_2nd.js"></script>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html{
+    background-image: linear-gradient(130deg, rgb(156, 185, 69), rgb(171, 75, 192),  rgb(57, 100, 114));
+    height: 100%;
+}
+     .nav{
+        display: flex;
+        background-color: rgb(43, 218, 95);
+        height: 50px;
+        justify-content: center;
+       align-items: center;
+       
+      
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        position: sticky;
+        background-color: rgb(43, 218, 95);
+        color: rgb(2, 13, 21);
+        width: 100%;
+        z-index:1 ;
+        top: 0;
+    }
+    #right{
+        margin-left: 45rem;
+    }
+    
+   nav ul li{
+    padding-left: 25px;     
+    }
+ 
+
+</style>
+</html>

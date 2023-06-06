@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=table, initial-scale=1.0">
+    <title>Day2</title>
+    <nav class="nav">
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact us</li>
+    </ul>
+    <ul id="right">
+        <li>Login</li>
+        <li>Logout</li>
+        
+    </ul>
+</nav>
+
+</head>
+<body>
+    <div class="container">
+    <div class="img">
+    <img src="https://www.seiu1000.org/sites/main/files/main-images/camera_lense_0.jpeg"  width="70%" alt="">
+    <h3>HOPE</h3>
+</div>
+
+    <br>
+      <div class="table">  
+    <table border="1">
+
+        <tr>
+            <th>Serial no</th>
+            <th>Name</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Soumendra</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>sanskar</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Dibya</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Arjya</td>
+            <td>Male</td>
+        </tr>
+    </table>
+</div>
+</div>
+</body>
+<style> 
+.container{
+    display: flex;
+}
+.img,.table{
+    flex:50%;
+}
+html{
+    background-image: linear-gradient(130deg, rgb(69, 178, 185), rgb(72, 159, 179),  rgb(76, 171, 76));
+    height: 100%;
+}
+    li{
+        padding: 10px;
+    }
+ 
+    img{
+        margin: 3rem;
+        
+    }
+    *{
+        font-family: 'segon UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .nav{
+        display: flex;
+        background-color: rgb(43, 218, 95);
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        position: sticky;
+        background-color: rgb(43, 218, 95);
+        color: rgb(2, 13, 21);
+        width: 100%;
+        z-index:1 ;
+        top: 0;
+        
+    }
+    #right{
+        margin-left: 45rem;
+    }
+    table{
+        border-collapse: collapse;
+        margin-left:2rem;   
+        margin-top:2.9rem;   
+        border: 1px solid #ddd;
+        font-size: 18px;
+        width: 60%;
+        box-shadow: black 2px 2px 4px;
+        height: 17rem;
+        
+
+    }
+    td,th{
+        padding: 0.5rem 1rem;
+        border-radius: 0.3rem;
+        
+        
+    } 
+    th{
+        box-shadow: 0px 3p 
+        0px 0px;
+    }
+    h3{
+        color: rgb(223, 39, 39);
+        margin-top: -5rem;
+        margin-left:  10rem;
+    }
+</style>
+</html>
